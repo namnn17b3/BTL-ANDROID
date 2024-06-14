@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn = "navigation_view">
+
+    <group
+        android:checkableBehavior="single">
+
+        <item
+            android:id="@+id/nav_home"
+            android:icon="@drawable/nav_home"
+            android:title="Trang chủ"/>
+
+        <item
+            android:id="@+id/nav_enter_point"
+            android:icon="@drawable/nav_enter_point"
+            android:title="Nhập điểm"/>
+
+        <item
+            android:id="@+id/nav_statistic_student"
+            android:icon="@drawable/nav_statistic_point"
+            android:title="Thống kê sinh viên"/>
+
+        <item
+            android:id="@+id/nav_change_password"
+            android:icon="@drawable/baseline_lock_24"
+            android:title="Đổi mật khẩu"/>
+    </group>
+    <item
+        android:title="">
+
+        <menu>
+            <item
+                android:id="@+id/nav_logout"
+                android:icon="@drawable/nav_logout"
+                android:title="Đăng xuất"/>
+        </menu>
+
+    </item>
+
+</menu>

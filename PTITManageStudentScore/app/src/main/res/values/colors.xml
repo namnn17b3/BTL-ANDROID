@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="login_bg">#ed8e8e</color>
+    <color name="login_title">#ed4646</color>
+    <color name="primary">#007bff</color>
+    <color name="sweet_ok">#7066e0</color>
+    <color name="danger">#dc3545</color>
+    <color name="dark">#23272b</color>
+    <color name="table_header">#343a40</color>
+    <color name="secondary">#6c757d</color>
+    <color name="success">#28a745</color>
+    <color name="warning">#ffc107</color>
+</resources>
